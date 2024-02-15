@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "quiz-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/quiz/QuizWebPart.js",
+          "manifest": "./src/webparts/quiz/QuizWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "QuizWebPartStrings": "lib/webparts/quiz/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

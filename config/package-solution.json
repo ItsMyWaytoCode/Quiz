@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "quizassignment-client-side-solution",
+    "id": "343c50ba-4893-41de-b04e-5c4e7b4eda88",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "quizassignment description"
+      },
+      "longDescription": {
+        "default": "quizassignment description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "quizassignment Feature",
+        "description": "The feature that activates elements of the quizassignment solution.",
+        "id": "edae967d-62d9-44ea-805b-a9d7f8d67d8a",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/quizassignment.sppkg"
+  }
+}

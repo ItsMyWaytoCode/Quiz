@@ -1,0 +1,90 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+:global {
+  .circle {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+
+
+  }
+
+  .wrong-answer {
+    background: red;
+  }
+
+  .white-circle {
+    color: white;
+    background: black;
+  }
+
+  .black-circle {
+    color: black;
+    background: white;
+  }
+
+  .right-answer {
+    background: green;
+  }
+
+  .questions {
+    height: 450px;
+  }
+
+  .mt-3 {
+    margin-top: 3px !important;
+  }
+
+  .mt-5 {
+    margin-top: 5px !important;
+  }
+
+  .form-group {
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+
+  .Container-bottom {
+    display: flex;
+    align-items: flex-end;
+  }
+}
+
+.quiz {
+  background-color: lightgray;
+  height: 600px;
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
